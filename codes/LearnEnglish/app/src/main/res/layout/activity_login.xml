@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1111"
+    android:background="@drawable/gradient"
     android:gravity="center"
     android:padding="16dp"
     tools:context=".LoginActivity">
@@ -45,7 +45,7 @@
                         android:layout_marginTop="10dp"
                         android:hint="email"
                         android:inputType="textEmailAddress"
-                        android:background="#145"
+                        android:background="@drawable/edit"
                         android:maxLines="1"
                         android:paddingStart="5dp"
                         android:singleLine="true"/>
@@ -66,7 +66,7 @@
                         android:layout_marginTop="10dp"
                         android:hint="password"
                         android:inputType="textPassword"
-                        android:background="#425"
+                        android:background="@drawable/edit"
                         android:maxLines="1"
                         android:paddingStart="5dp"
                         android:singleLine="true"/>
@@ -89,7 +89,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:gravity="center"
-                    android:text="kaydol"
+                    android:text="Kayıt Olmak İçin Tıklayınız"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp"/>
 
@@ -104,7 +104,7 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-50dp"
-        android:background="#333"
+        android:background="@drawable/round_background"
         android:padding="15dp"
         android:src="@drawable/profile"/>
 
