@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LearnEnglish</string>
+    <string name="name">İsim</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="register">Kaydol</string>
+    <string name="not_register">Zaten bir hesabınız varmı?</string>
+
 </resources>
